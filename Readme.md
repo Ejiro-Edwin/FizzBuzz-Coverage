@@ -1,0 +1,2 @@
+[![Build Status](https://travis-ci.org/Ejiro-Edwin/FizzBuzz-Coverage.svg?branch=master)]https://travis-ci.org/Ejiro-Edwin/FizzBuzz-Coverage)
+[![Coverage Status](https://coveralls.io/github/Ejiro-Edwin/FizzBuzz-Coverage/badge.svg)](https://coveralls.io/github/Ejiro-Edwin/FizzBuzz-Coverage)
