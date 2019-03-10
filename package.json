@@ -4,7 +4,8 @@
   "description": "Fizzbuzz with travis integration, test coverage, and style checking",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha test/**/*.spec.js"
+    "test":"nyc mocha test/**/*.spec.js && nyc report --reporter=text-lcov | coveralls",
+    "coveralls": "./node_modules/coveralls/bin/coveralls.js"
   },
   "devDependencies": {
     "coveralls": "^3.0.3",
